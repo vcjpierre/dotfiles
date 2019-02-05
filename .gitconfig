@@ -1,0 +1,10 @@
+[winUpdater]
+	recentlySeenVersion = 2.20.1.windows.1
+[user]
+	email = vcjpierre@gmail.com
+	name = vcjpierre
+[core]
+	safecrlf = false
+[alias]
+	s = status -s -b
+	lg = log --online --decorate --all --graph

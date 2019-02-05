@@ -27,7 +27,5 @@
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
     "terminal.integrated.fontSize": 15,
-    "emulator.emulatorPath": "%ANDROID_HOME%/emulator/emulator.exe",
-    // "editor.fontFamily": "Fira Code",
-    // "editor.fontLigatures": true,
+    "emulator.emulatorPath": "%ANDROID_HOME%/emulator/emulator.exe"
 }
