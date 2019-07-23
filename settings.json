@@ -22,10 +22,9 @@
     "editor.wordWrap": "on",
     "eslint.enable": false,
     "window.zoomLevel": 0,
-    "editor.formatOnPaste": false,
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "emulator.emulatorPath": "D:\\Dev\\Android\\sdk\\tools",
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -97,5 +96,12 @@
     "todohighlight.isEnable": false,
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.lineHeight": 25
+    "editor.lineHeight": 25,
+    "telemetry.enableTelemetry": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.renderIndentGuides": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
