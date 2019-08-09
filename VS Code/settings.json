@@ -25,8 +25,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "peacock.favoriteColors": [
-        {
+    "peacock.favoriteColors": [{
             "name": "Angular Red",
             "value": "#b52e31"
         },
