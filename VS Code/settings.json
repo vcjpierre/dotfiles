@@ -12,8 +12,8 @@
     "sync.lastUpload": "2018-08-14T06:08:45.571Z",
     "sync.lastDownload": "",
     "sync.forceDownload": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Palenight Italic",
     "materialTheme.fixIconsRunning": false,
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -25,7 +25,8 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "peacock.favoriteColors": [{
+    "peacock.favoriteColors": [
+        {
             "name": "Angular Red",
             "value": "#b52e31"
         },
@@ -79,7 +80,7 @@
         }
     ],
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "HookyQR.beautify"
     },
     "files.associations": {
         "*.html": "html"
@@ -92,7 +93,7 @@
     "cSpell.userWords": [
         "Paginator"
     ],
-    "todohighlight.isEnable": false,
+    "todohighlight.isEnable": true,
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.lineHeight": 25,
@@ -103,4 +104,8 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.autofetch": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "todo-tree.highlights.enabled": false,
 }
