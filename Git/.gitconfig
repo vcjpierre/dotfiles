@@ -1,10 +1,29 @@
-[winUpdater]
-	recentlySeenVersion = 2.20.1.windows.1
 [user]
+	name = Jean Pierre Velez
 	email = vcjpierre@gmail.com
-	name = vcjpierre
-[core]
-	safecrlf = false
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [alias]
 	s = status -s -b
-	lg = log --online --decorate --all --graph
+	br = branch
+	st = status
+	lg = log --graph --oneline --decorate --all
+	repush = pull --rebase && git push
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	lp = log -10 --pretty --oneline
+	r = reflog
+	cm = checkout master
+	cb = checkout -b
+	sc = switch -c
+	pm = push -u origin master
+	a = add -A
+	pu = push
+	c = commit -m
+	co = checkout
+[core]
+	autocrlf = true
