@@ -12,18 +12,16 @@
     "sync.lastUpload": "2018-08-14T06:08:45.571Z",
     "sync.lastDownload": "",
     "sync.forceDownload": false,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Palenight Italic",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme Ocean",
     "materialTheme.fixIconsRunning": false,
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
     "editor.wordWrap": "on",
-    "eslint.enable": false,
     "window.zoomLevel": 0,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": false,
     "editor.formatOnType": false,
     "peacock.favoriteColors": [
         {
@@ -80,13 +78,13 @@
         }
     ],
     "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "files.associations": {
         "*.html": "html"
     },
     "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "terminal.external.windowsExec": "C:\\\\Windows\\\\System32\\\\cmd.exe",
     "vsicons.projectDetection.autoReload": true,
@@ -94,7 +92,7 @@
         "Paginator"
     ],
     "todohighlight.isEnable": true,
-    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.lineHeight": 25,
     "telemetry.enableTelemetry": false,
@@ -108,4 +106,33 @@
     "dart.previewFlutterUiGuides": true,
     "dart.previewFlutterUiGuidesCustomTracking": true,
     "todo-tree.highlights.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+    "editor.tabSize": 2,
+    "emulator.emulatorPathWindows": "C:\\Users\\Velez\\AppData\\Local\\Android\\Sdk\\emulator",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "explorer.compactFolders": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "scm.alwaysShowRepositories": true,
+    "dart.flutterSdkPath": "C:\\tools\\flutter\\bin",
+    "php.executablePath": "D:\\Dev\\laragon\\bin\\php\\php-7.4.12-Win32-vc15-x64\\php.exe",
+    "php.validate.executablePath": "D:\\Dev\\laragon\\bin\\php\\php-7.4.12-Win32-vc15-x64\\php.exe",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "dart.previewLsp": true,
+    "terminal.integrated.fontSize": 15,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "gitlens.views.branches.branches.layout": "list",
 }
