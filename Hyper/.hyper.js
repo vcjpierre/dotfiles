@@ -1,4 +1,4 @@
-﻿// Future versions of Hyper may add additional config options,
+// Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
@@ -108,12 +108,10 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    //shell: 'C:\\Program Files\\Git\\git-cmd.exe',
     shell: 'C:\\Program Files\\Git\\git-cmd.exe',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    //shellArgs: ['--command=usr/bin/bash.exe', '-l', '-i'],
     shellArgs: ['--command=usr/bin/bash.exe', '-l', '-i'],
 
     // for environment variables
