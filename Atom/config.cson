@@ -1,36 +1,37 @@
 "*":
-  _dart:
-    _firstRun: true
-    _version: "1.0.1"
-  "autocomplete-plus":
-    autoActivationDelay: 500
+  "atom-package-deps":
+    ignored: [
+      "linter"
+    ]
   core:
     disabledPackages: [
       "wrap-guide"
-      "linter"
-      "atom-toolbar"
     ]
-    followSymlinks: false
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
       "atom-material-syntax-dark"
     ]
     uriHandlerRegistration: "always"
-  dart:
-    sdkLocation: "C:\\tools\\dart-sdk"
-    showOutlineView: false
   editor:
+    fontSize: 17
     softWrap: true
   "exception-reporting":
-    userId: "8af01577-b864-43e3-b8c7-2fc24aacbd52"
+    userId: "a7bf7583-5910-4741-9448-37c68596eaac"
+  "file-icons":
+    coloured: false
+  "linter-ui-default":
+    useBusySignal: false
   "platformio-ide-terminal":
-    core: {}
-    toggles:
-      selectToCopy: false
+    core:
+      shell: "C:\\Program Files\\Git\\git-cmd.exe"
   "sync-settings":
-    _lastBackupHash: "8c9dc14cc49aeace34c6ee01606fd7109a13e397"
-    gistId: "484db4184ec117077a8db0b0af5e8d36"
-    personalAccessToken: "7a7c2fac3d214c06f0065ba171e2ae1621fa8dd5"
+    gistId: "3907b55267f3889725d6794ab8cdfe94"
+    hiddenSettings:
+      _lastBackupTime: "2021-02-08T22:55:28Z"
+    personalAccessToken: "4f6d08730170a0c177fd04109773e388bc03b9b6"
+    syncSettings: false
+  "tool-bar":
+    position: "Left"
   welcome:
     showOnStartup: false
